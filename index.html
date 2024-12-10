@@ -21,7 +21,7 @@ margin-bottom: 20px;
         .top img{
            
             width: 50px;
-            margin-left: 10px;
+            margin-left: -390px;
             margin-top: 5px;
         }
         .con img{
@@ -30,37 +30,20 @@ margin-bottom: 20px;
           margin-right: 10px;
         }        
           
-        
-        .bod input{
-          margin: 50px;
-          padding: 20px 60px 15px 15px;
- a         border-radius: 20px;
-          border-style: solid;
-        
-        }
+     
         .bod img{
           width: 50px;
           position: absolute;
           margin-left: 277px;
         }
-     button{
-            padding: 15px 25px;
-            position: absolute;
-            margin-left: 80px;
-            margin-top: 50px;
-            font-size: 16px;
-            cursor: pointer;
-            border-radius: 10px;
-            border: none;
-            background-color: rgb(100,200,100);
-      }
+     
         .last{
           background-color: rgb(200,200,200);
-          margin-top: 200px;
+          margin-top: 280px;
           height: 200px;
-    a     width: 310px;
+      width: 310px;
           position: fixed;
-          margin-left: 10px;
+          margin-left: -7px;
           padding: 10px;
           border-radius: 5px;
         }
@@ -90,18 +73,36 @@ margin-bottom: 20px;
         .container {
             max-width: 600px;
             margin: 0 auto;
+            position: fixed;
         }
+    
         input {
-            width: 80%;
-            padding: 10px;
-            margin: 10px 0;
+          margin-top: 40px;
+            width: 60%;
+            margin-left: -11px;
             font-size: 16px;
+            border-radius: 20px;
+            border: none;
+          padding: 20px 60px 15px 15px;
+        border-radius: 20px;
+          border: solid;
         }
+    
+    
         button {
-            padding: 10px 20px;
+            
             margin: 10px;
             font-size: 16px;
-            cursor: pointer;k
+            cursor: pointer;
+            padding: 15px 25px;
+            position: absolute;
+            margin-left: -235px;
+            margin-top: 200px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 10px;
+            border: none;
+            background-color: rgb(100,200,100);
         }
         canvas {
             margin-top: 20px;
@@ -126,12 +127,12 @@ margin-bottom: 20px;
    <div class="bod">
         <input type="text" id="textInput" placeholder="Enter text here" />
 
-         <button onclick="downloadImage()" id="downloadButton" disabled>        <img src="download (2).png" style="margin-left: 170px; margin-top: -100px;"></button>
+         <button onclick="downloadImage()" id="downloadButton" disabled>        <img src="download (2).png" style="margin-left: 170px; margin-top: -90px;"></button>
         
         <button onclick="generateQRCode()">Generate QR Code</button>
         
         
-<button onclick="generateBarcode()"style="margin-top: 120px;">Generate Barcode</button>
+<button onclick="generateBarcode()"style="margin-top: 280px;">Generate Barcode</button>
    </div>
 <div class="last">
 
@@ -185,4 +186,4 @@ margin-bottom: 20px;
         }
     </script>
 </body>
-    </html></html>
+</html>
